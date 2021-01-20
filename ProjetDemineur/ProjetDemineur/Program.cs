@@ -6,7 +6,7 @@ namespace ProjetDemineur
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Grille g = new Grille();
         }
     }
 }

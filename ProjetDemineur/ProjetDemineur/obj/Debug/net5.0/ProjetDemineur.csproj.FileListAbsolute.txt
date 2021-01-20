@@ -1,0 +1,16 @@
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.csprojAssemblyReference.cache
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.AssemblyInfoInputs.cache
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.AssemblyInfo.cs
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.csproj.CoreCompileInputs.cache
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\bin\Debug\net5.0\ProjetDemineur.exe
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\bin\Debug\net5.0\ProjetDemineur.deps.json
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\bin\Debug\net5.0\ProjetDemineur.runtimeconfig.json
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\bin\Debug\net5.0\ProjetDemineur.runtimeconfig.dev.json
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\bin\Debug\net5.0\ProjetDemineur.dll
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\bin\Debug\net5.0\ref\ProjetDemineur.dll
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\bin\Debug\net5.0\ProjetDemineur.pdb
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.dll
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ref\ProjetDemineur.dll
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.pdb
+D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.genruntimeconfig.cache
