@@ -14,7 +14,12 @@ namespace ProjetDemineur
 
         public Case()
         {
-            Console.Write(apparenceCase);
+            afficherCase();
+        }
+
+        public string afficherCase()
+        {
+            return apparenceCase;
         }
 
     }

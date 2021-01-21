@@ -7,6 +7,7 @@ namespace ProjetDemineur
         static void Main(string[] args)
         {
             Grille g = new Grille();
+            Console.ReadLine();
         }
     }
 }

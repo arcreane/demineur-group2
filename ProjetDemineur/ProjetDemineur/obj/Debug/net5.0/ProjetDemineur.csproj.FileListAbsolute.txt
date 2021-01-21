@@ -14,3 +14,4 @@ D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetD
 D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ref\ProjetDemineur.dll
 D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.pdb
 D:\Projet_Demineur_Github\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.genruntimeconfig.cache
+C:\Users\Adam\source\repos\Demineur_Adam\demineur-group2\demineur-group2\ProjetDemineur\ProjetDemineur\obj\Debug\net5.0\ProjetDemineur.pdb

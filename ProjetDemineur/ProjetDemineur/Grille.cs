@@ -21,10 +21,12 @@ namespace ProjetDemineur
             longueur = 6;
             largeur = 6;
             Console.WriteLine("la grille est de taille "+longueur+"*"+largeur+ " ");
-            genererGrille();
+            genererCase();
+            genererMine();
+            afficherGrille();
         }
 
-        public void genererGrille()
+        public void genererCase()
         {
             tabElements = new ElementsGrille[longueur][];
 
@@ -33,8 +35,43 @@ namespace ProjetDemineur
                 tabElements[i] = new ElementsGrille[largeur];
                 for(int j = 0; j<6;j++)
                 {
-                    //Case tabGrille[i][j] = tabElements[0];
                     tabElements[i][j] = new Case();
+                }
+
+                if (i != longueur)
+                {
+                    Console.Write("\n");
+                }
+            }
+        }
+
+        public void genererMine()
+        {
+            tabElements = new ElementsGrille[longueur][];
+
+            for (int i = 0; i < 6; i++)
+            {
+                tabElements[i] = new ElementsGrille[largeur];
+                for (int j = 0; j < 6; j++)
+                {
+                    tabElements[i][j] = new Mine();
+                }
+
+                if (i != longueur)
+                {
+                    Console.Write("\n");
+                }
+            }
+        }
+
+        public void afficherGrille()
+        {
+
+            for (int i = 0; i < 6; i++)
+            {
+                for (int j = 0; j < 6; j++)
+                {
+                    tabElements[i][j].afficher();
                 }
 
                 if (i != longueur)

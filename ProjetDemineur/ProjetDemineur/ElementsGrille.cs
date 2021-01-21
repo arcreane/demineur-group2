@@ -17,5 +17,10 @@ namespace ProjetDemineur
 
         //}
 
+        public void afficher()
+        {
+            Console.Write(this);
+        }
+
     }
 }
