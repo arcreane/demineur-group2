@@ -9,7 +9,7 @@ namespace ProjetDemineur
     class Case : ElementsGrille
     {
 
-        private char apparenceCase = 'O';
+        private string apparenceCase = "O";
         private int nombreBonbeAdj = 0;
 
         public Case(int p_X, int p_Y)
@@ -21,16 +21,24 @@ namespace ProjetDemineur
 
         public override void afficher()
         {
+           
+            Console.Write(apparenceCase);
+            
+        }
+
+        public override void découvreCase()
+        {
             if (nombreBonbeAdj !=0)
             {
-                Console.Write(nombreBonbeAdj);
+                apparenceCase = Convert.ToString(nombreBonbeAdj);
             }
             else
             {
-                Console.Write(apparenceCase);
+                apparenceCase = " ";
             }
-            
         }
+
+
         public override void Minedetecter() 
         {
             nombreBonbeAdj += 1;

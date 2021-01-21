@@ -25,5 +25,10 @@ namespace ProjetDemineur
         public virtual void Minedetecter()
         {
         }
+
+        public virtual void découvreCase() 
+        { 
+        
+        }
     }
 }

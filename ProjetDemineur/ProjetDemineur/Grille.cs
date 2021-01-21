@@ -77,10 +77,10 @@ namespace ProjetDemineur
 
         public void afficherGrille()
         {
-
-            for (int i = 0; i < 6; i++)
+            
+            for (int i = 0; i < longueur; i++)
             {
-                for (int j = 0; j < 6; j++)
+                for (int j = 0; j < largeur; j++)
                 {
                     tabElements[i][j].afficher();
                 }
@@ -91,10 +91,11 @@ namespace ProjetDemineur
                 }
             }
         }
-
-        public void afficherContenu()
+        public void TestCase(int p_x, int p_y) 
         {
-
+            Console.Clear();
+            tabElements[p_x][p_y].découvreCase();
+            afficherGrille();
         }
 
     }
