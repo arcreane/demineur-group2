@@ -9,13 +9,13 @@ namespace ProjetDemineur
     class ElementsGrille
     {
 
-        private int x;
-        private int y;
+        protected int coordX;
+        protected int coordY;
 
-        //public ElementsGrille()
-        //{
+        public ElementsGrille()
+        {
 
-        //}
+        }
 
         public virtual void afficher()
         {

@@ -12,15 +12,16 @@ namespace ProjetDemineur
         private char apparenceCase = 'O';
 
 
-        public Case()
+        public Case(int p_X, int p_Y)
         {
-            
+            coordX = p_X;
+            coordY = p_Y;
+            //Console.WriteLine($"Case x: {coordX} y: {coordY}");
         }
 
         public override void afficher()
         {
             Console.Write(apparenceCase);
-            
         }
 
     }

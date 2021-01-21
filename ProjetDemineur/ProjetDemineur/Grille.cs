@@ -35,7 +35,7 @@ namespace ProjetDemineur
                 tabElements[i] = new ElementsGrille[largeur];
                 for(int j = 0; j<6;j++)
                 {
-                    tabElements[i][j] = new Case();
+                    tabElements[i][j] = new Case(i,j);
                 }
 
             }
@@ -50,8 +50,7 @@ namespace ProjetDemineur
             {
                 int nbr1 = rand.Next(0, 6);
                 int nbr2 = rand.Next(0, 6);
-                tabElements[nbr1][nbr2] = new Mine();
-                Console.WriteLine($"x: {nbr1} y: {nbr2}" );
+                tabElements[nbr1][nbr2] = new Mine(nbr1,nbr2);
             }
         }
 
@@ -70,6 +69,11 @@ namespace ProjetDemineur
                     Console.Write("\n");
                 }
             }
+        }
+
+        public void afficherContenu()
+        {
+
         }
 
     }
