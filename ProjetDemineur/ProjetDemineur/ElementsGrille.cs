@@ -8,5 +8,14 @@ namespace ProjetDemineur
 {
     class ElementsGrille
     {
+
+        private int x;
+        private int y;
+
+        //public ElementsGrille()
+        //{
+
+        //}
+
     }
 }

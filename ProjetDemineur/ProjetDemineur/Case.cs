@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace ProjetDemineur
 {
-    class Case
+    class Case : ElementsGrille
     {
+
+        private char apparenceCase = 'O';
+
+
+        public Case()
+        {
+            Console.Write(apparenceCase);
+        }
+
     }
 }
