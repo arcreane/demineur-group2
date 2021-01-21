@@ -17,7 +17,7 @@ namespace ProjetDemineur
 
         //}
 
-        public void afficher()
+        public virtual void afficher()
         {
             Console.Write(this);
         }

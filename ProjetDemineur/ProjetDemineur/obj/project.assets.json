@@ -9,23 +9,19 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\Adam\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\hamid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam\\source\\repos\\Demineur_Adam\\demineur-group2\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
+      "projectUniqueName": "D:\\Projet_Demineur_Github\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
       "projectName": "ProjetDemineur",
-      "projectPath": "C:\\Users\\Adam\\source\\repos\\Demineur_Adam\\demineur-group2\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
-      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam\\source\\repos\\Demineur_Adam\\demineur-group2\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\obj\\",
+      "projectPath": "D:\\Projet_Demineur_Github\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
+      "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+      "outputPath": "D:\\Projet_Demineur_Github\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -37,6 +33,7 @@
       },
       "frameworks": {
         "net472": {
+          "targetAlias": "net472",
           "projectReferences": {}
         }
       },
@@ -47,7 +44,10 @@
       }
     },
     "frameworks": {
-      "net472": {}
+      "net472": {
+        "targetAlias": "net472",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
     },
     "runtimes": {
       "win7-x86": {

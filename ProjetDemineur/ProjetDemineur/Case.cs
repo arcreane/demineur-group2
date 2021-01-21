@@ -14,12 +14,13 @@ namespace ProjetDemineur
 
         public Case()
         {
-            afficherCase();
+            
         }
 
-        public string afficherCase()
+        public override void afficher()
         {
-            return apparenceCase;
+            Console.Write(apparenceCase);
+            
         }
 
     }

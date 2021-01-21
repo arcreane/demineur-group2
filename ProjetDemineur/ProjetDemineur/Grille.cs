@@ -38,29 +38,20 @@ namespace ProjetDemineur
                     tabElements[i][j] = new Case();
                 }
 
-                if (i != longueur)
-                {
-                    Console.Write("\n");
-                }
             }
         }
 
         public void genererMine()
         {
-            tabElements = new ElementsGrille[longueur][];
-
+            
+            Random rand = new Random();
+            
             for (int i = 0; i < 6; i++)
             {
-                tabElements[i] = new ElementsGrille[largeur];
-                for (int j = 0; j < 6; j++)
-                {
-                    tabElements[i][j] = new Mine();
-                }
-
-                if (i != longueur)
-                {
-                    Console.Write("\n");
-                }
+                int nbr1 = rand.Next(0, 6);
+                int nbr2 = rand.Next(0, 6);
+                tabElements[nbr1][nbr2] = new Mine();
+                Console.WriteLine($"x: {nbr1} y: {nbr2}" );
             }
         }
 

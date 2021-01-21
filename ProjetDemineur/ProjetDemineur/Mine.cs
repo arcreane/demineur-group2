@@ -8,16 +8,16 @@ namespace ProjetDemineur
 {
     class Mine : ElementsGrille
     {
-        private char apparenceCase = '*';
+        private char apparenceMine = 'O';
 
         public Mine()
         {
-            afficherMine();
+           
         }
 
-        public void afficherMine()
+        public override void afficher()
         {
-            Console.Write(apparenceCase);
+            Console.Write(apparenceMine);
         }
     }
 }
