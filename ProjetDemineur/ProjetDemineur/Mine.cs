@@ -8,7 +8,7 @@ namespace ProjetDemineur
 {
     class Mine : ElementsGrille
     {
-        private char apparenceMineDepart = 'O';
+        private char apparenceMineDepart = '*';
 
         public Mine(int p_X, int p_Y)
         {
@@ -20,6 +20,10 @@ namespace ProjetDemineur
         public override void afficher()
         {
             Console.Write(apparenceMineDepart);
+        }
+        public override void Minedetecter()
+        {
+            base.Minedetecter();
         }
     }
 }

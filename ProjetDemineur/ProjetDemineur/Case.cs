@@ -10,7 +10,7 @@ namespace ProjetDemineur
     {
 
         private char apparenceCase = 'O';
-
+        private int nombreBonbeAdj = 0;
 
         public Case(int p_X, int p_Y)
         {
@@ -21,7 +21,19 @@ namespace ProjetDemineur
 
         public override void afficher()
         {
-            Console.Write(apparenceCase);
+            if (nombreBonbeAdj !=0)
+            {
+                Console.Write(nombreBonbeAdj);
+            }
+            else
+            {
+                Console.Write(apparenceCase);
+            }
+            
+        }
+        public override void Minedetecter() 
+        {
+            nombreBonbeAdj += 1;
         }
 
     }

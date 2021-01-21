@@ -9,19 +9,19 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\hamid\\.nuget\\packages\\": {}
+    "C:\\Users\\xavie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projet_Demineur_Github\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
+      "projectUniqueName": "D:\\OneDriveSchola\\OneDrive - SCHOLA NOVA\\Cours Dev C#\\Execice C#\\Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
       "projectName": "ProjetDemineur",
-      "projectPath": "D:\\Projet_Demineur_Github\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
-      "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
-      "outputPath": "D:\\Projet_Demineur_Github\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\obj\\",
+      "projectPath": "D:\\OneDriveSchola\\OneDrive - SCHOLA NOVA\\Cours Dev C#\\Execice C#\\Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
+      "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
+      "outputPath": "D:\\OneDriveSchola\\OneDrive - SCHOLA NOVA\\Cours Dev C#\\Execice C#\\Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

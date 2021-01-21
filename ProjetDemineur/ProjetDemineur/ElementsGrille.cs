@@ -22,5 +22,8 @@ namespace ProjetDemineur
             Console.Write(this);
         }
 
+        public virtual void Minedetecter()
+        {
+        }
     }
 }
