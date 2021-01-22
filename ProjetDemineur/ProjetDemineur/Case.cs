@@ -35,7 +35,7 @@ namespace ProjetDemineur
             }
             else
             {
-                apparenceCase = " ";
+                apparenceCase = "0";
             }
         }
 
