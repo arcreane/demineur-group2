@@ -98,5 +98,16 @@ namespace ProjetDemineur
             afficherGrille();
         }
 
+        public int getLong()
+        {
+            return longueur;
+        }
+        public int getLarg()
+        {
+            return largeur;
+        }
+
+
+
     }
 }

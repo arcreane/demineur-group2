@@ -24,3 +24,12 @@ D:\OneDriveSchola\OneDrive - SCHOLA NOVA\Cours Dev C#\Execice C#\Demineur\demine
 D:\OneDriveSchola\OneDrive - SCHOLA NOVA\Cours Dev C#\Execice C#\Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\bin\Debug\net472\ProjetDemineur.exe.config
 D:\OneDriveSchola\OneDrive - SCHOLA NOVA\Cours Dev C#\Execice C#\Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\bin\Debug\net472\ProjetDemineur.exe
 D:\OneDriveSchola\OneDrive - SCHOLA NOVA\Cours Dev C#\Execice C#\Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\bin\Debug\net472\ProjetDemineur.pdb
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\bin\Debug\net472\ProjetDemineur.exe.config
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\bin\Debug\net472\ProjetDemineur.exe
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\bin\Debug\net472\ProjetDemineur.pdb
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\obj\Debug\net472\ProjetDemineur.csprojAssemblyReference.cache
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\obj\Debug\net472\ProjetDemineur.AssemblyInfoInputs.cache
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\obj\Debug\net472\ProjetDemineur.AssemblyInfo.cs
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\obj\Debug\net472\ProjetDemineur.csproj.CoreCompileInputs.cache
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\obj\Debug\net472\ProjetDemineur.exe
+D:\Projet_Demineur\demineur-group2\ProjetDemineur\ProjetDemineur\obj\Debug\net472\ProjetDemineur.pdb

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDriveSchola\\OneDrive - SCHOLA NOVA\\Cours Dev C#\\Execice C#\\Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj": {}
+    "D:\\Projet_Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj": {}
   },
   "projects": {
-    "D:\\OneDriveSchola\\OneDrive - SCHOLA NOVA\\Cours Dev C#\\Execice C#\\Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj": {
+    "D:\\Projet_Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDriveSchola\\OneDrive - SCHOLA NOVA\\Cours Dev C#\\Execice C#\\Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
+        "projectUniqueName": "D:\\Projet_Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
         "projectName": "ProjetDemineur",
-        "projectPath": "D:\\OneDriveSchola\\OneDrive - SCHOLA NOVA\\Cours Dev C#\\Execice C#\\Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
-        "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDriveSchola\\OneDrive - SCHOLA NOVA\\Cours Dev C#\\Execice C#\\Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\obj\\",
+        "projectPath": "D:\\Projet_Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\ProjetDemineur.csproj",
+        "packagesPath": "C:\\Users\\hamid\\.nuget\\packages\\",
+        "outputPath": "D:\\Projet_Demineur\\demineur-group2\\ProjetDemineur\\ProjetDemineur\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
