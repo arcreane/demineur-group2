@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetDemineur
 {
-    class Grille
+    public class Grille
     {
         private int nombreBombe = 6;
         private int longueur;
