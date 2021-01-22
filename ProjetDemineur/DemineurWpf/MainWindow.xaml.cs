@@ -26,26 +26,40 @@ namespace DemineurWpf
             InitializeComponent();
             int i, j;
             Grille g = new Grille();
-            ElementsGrille tabBtn[][];
-            tabBtn = new ElementsGrille[g.getLong()][];
-            
-            for ( i = 0; i < g.getLarg();i++) {
+
+
+            for (i = 0; i < g.getLong(); i++)
+            {
                 RowDefinition temp = new RowDefinition();
                 grilleJeu.RowDefinitions.Add(temp);
-                if (i == 0)
+               
+                for (j = 0; j < g.getLarg(); j++)
                 {
-                    for ( j = 0; j < g.getLong(); j++)
+                    if (i == 0)
                     {
                         ColumnDefinition tempBis = new ColumnDefinition();
                         grilleJeu.ColumnDefinitions.Add(tempBis);
-                        Grid.SetRow(btn[][],i);
-                        Grid.SetColumn(btn, j);
-
                     }
+                    Button Btn = new Button();
+                    Grid.SetRow(Btn, i);
+                    Grid.SetColumn(Btn, j);
+                    grilleJeu.Children.Add(Btn);
+                    Btn.Click += clickCase;
+                    Btn.Tag = g.getCase(i, j); 
                 }
+
+
+
             }
-            
+
         }
-            
+
+        private void clickCase(object sender, RoutedEventArgs e)
+        {
+            Button tempBtn = sender as Button;
+            ElementsGrille elementClick = tempBtn.Tag as ElementsGrille;
+            elementClick.decouvreCase();
+            tempBtn.Content = elementClick.apparenceCase;
+        }
     }
 }

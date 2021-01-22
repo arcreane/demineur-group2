@@ -94,7 +94,7 @@ namespace ProjetDemineur
         public void TestCase(int p_x, int p_y) 
         {
             Console.Clear();
-            tabElements[p_x][p_y].découvreCase();
+            tabElements[p_x][p_y].decouvreCase();
             afficherGrille();
         }
 
@@ -105,6 +105,11 @@ namespace ProjetDemineur
         public int getLarg()
         {
             return largeur;
+        }
+
+        public ElementsGrille getCase(int i,int j)
+        {
+            return tabElements[i][j];
         }
 
 

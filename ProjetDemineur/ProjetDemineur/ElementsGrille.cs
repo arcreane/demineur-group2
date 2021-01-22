@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ProjetDemineur
 {
-    class ElementsGrille
+    public class ElementsGrille
     {
 
         protected int coordX;
         protected int coordY;
+        public string apparenceCase { get; protected set; }
 
         public ElementsGrille()
         {
@@ -26,7 +27,7 @@ namespace ProjetDemineur
         {
         }
 
-        public virtual void découvreCase() 
+        public virtual void decouvreCase() 
         { 
         
         }

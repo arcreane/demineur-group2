@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace ProjetDemineur
 {
-    class Case : ElementsGrille
+    public class Case : ElementsGrille
     {
 
-        private string apparenceCase = "O";
+        
         private int nombreBonbeAdj = 0;
 
         public Case(int p_X, int p_Y)
         {
             coordX = p_X;
             coordY = p_Y;
+            apparenceCase = "O";
             //Console.WriteLine($"Case x: {coordX} y: {coordY}");
         }
 
@@ -26,7 +27,7 @@ namespace ProjetDemineur
             
         }
 
-        public override void découvreCase()
+        public override void decouvreCase()
         {
             if (nombreBonbeAdj !=0)
             {
